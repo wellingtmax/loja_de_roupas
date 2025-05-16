@@ -46,9 +46,11 @@ body {
     display: flex;
     margin-top: 80px;
     flex-grow: 1;
+    padding: 10px;
+    border: 1px solid;
 }
 
-/* CONTEÚDO */
+/* =========================CONTEÚDO==================================== */
 .conteudo {
     padding: 2rem;
     flex-grow: 1;
@@ -226,4 +228,65 @@ body {
         margin-right: 0;
         min-height: auto;
     }
+}
+/*==========================PRODUTOS===================================*/
+.produtos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+}
+
+.prod{
+    width: 220px;
+    padding: 10px;
+    justify-items: center;
+    margin: 2px;
+    background: #f5f5f5;
+}
+
+.prod, p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.botoes{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod h3{
+    color: green;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.PR{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.PR:hover{
+    transform: scale(1.1);
+}
+.comp, .car{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.comp:hover, .car:hover{
+    background: rgba(0, 128, 0, 0.774);
+    
 }
