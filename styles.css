@@ -36,9 +36,32 @@ body {
 }
 
 .cab img {
-    height: 130px;
+    height: 150px;
     width: auto;
     margin-left: 700px;
+}
+.but_log{
+    width: 150px;
+    position: relative;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    left: 800px;
+    justify-content: space-around;
+
+}
+
+.log, .cadastro{
+    background: #c5f0749a;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+.log:hover, .cadastro:hover{
+    background: #014921;
 }
 
 /* --------------------CONTEÚDO PRINCIPAL--------------------------- */
